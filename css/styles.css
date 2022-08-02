@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Ruda&display=swap');
+
+body{
+    margin: 0px;
+}
+.general{
+    width: 100vw;
+    height: 180vh;
+}
+.nav-menu{
+    width: 100%;
+    height: 6%;
+    background-color: #f4b725;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+.nav-logo{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo img{
+    width: 4rem;
+    height: 4rem;
+}
+.nav-logo span{
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+    font-size: 25px;
+}
+.nav-options{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-options ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-options ul li{
+    list-style: none;
+}
+.nav-options ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Ruda;
+}
+.nav-options img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.main-contain{
+    width: 100%;
+    height: 84%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.main-list{
+    width: 15%;
+    height: 100%;
+    background-color: #f7ce6f;
+}
+.main-list p{
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main-list ul{list-style-type: disclosure-closed;}
+.main-list ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: Ruda;
+    color: black;
+}
+
+.main-body{
+    width: 85%;
+    height: 100%;
+}
+.body-img{
+    width: 100%;
+    height: 16%;
+    position: relative;
+}
+.body-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.body-img div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.body-img div p{
+    color: white;
+    font-size: 35px;
+    font-family: Ruda;
+}
+.pants{
+    width: 100%;
+    height: 25%;
+}
+.more-pants{
+    width: 100%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+}
+.more-pants div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.more-pants div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.jackets{
+    width: 100%;
+    height: 25%;
+}
+.more-jackets{
+    width: 100%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+}
+.more-jackets div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.more-jackets div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.shoes{
+    width: 100%;
+    height: 25%;
+}
+.more-shoes{
+    width: 100%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+}
+.more-shoes div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.more-shoes div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.article-title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Ruda;
+    font-size: 30px;
+}
+.article-contain{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    height: 80%;
+}
+.card-img{
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.card-float{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-btn button{
+    width: 50%;
+    height: 50%;
+    background-color: #f7ce6f;
+    border-color: #818181;
+    border-width: 2px;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.crd-description{
+    font-size: 25px;
+}
+.crd-price{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #7c7c7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-container{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-logo img{
+    width: 6rem;
+    height: 6rem;
+}
+.foot-logo span{
+    font-family: 'Oleo Script', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+.foot-links{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-links p{
+    font-size: 25px;
+    margin: 0px;
+    font-family: Ruda;
+}
+.foot-btn{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-btn a button{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.foot-btn a button img{
+    width: 150%;
+    height: 150%;
+}
+
+.card-btn button:hover{
+    border-color: #ff0000;
+}
+.card-float:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card-float:hover .crd-description{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.card-float:hover .crd-price{
+    color: #ff0000;
+    transition: 0.5s;
+}
+
+
+
+@media screen and (max-width: 670px){
+    .general{
+        height: 200vh;
+    }
+    .nav-menu{
+        width: 100%;
+        height: 4%;
+        justify-content: space-around;
+    }
+    .nav-logo{
+        width: 10%;
+    }
+    .nav-logo img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .nav-options ul{
+        width: 95%;
+    }
+    .nav-options ul li a{
+        font-size: 10px;
+    }
+    .nav-options img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .main-contain{
+        width: 100%;
+        height: 86%;
+    }
+    .main-list{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    .main-body{
+        width: 100%;
+        height: 100%;
+    }
+    .body-img{
+        width: 100%;
+        height: 10%;
+    }
+    .pants, .jackets, .shoes{
+        width: 100%;
+        height: 28%;
+    }
+    .more-pants, .more-jackets, .more-shoes{
+        width: 100%;
+        height: 2%;
+    }
+    .body-img div p{
+        font-size: 15px;
+    }
+    .card{
+        width: 40%;
+        height: 60%;
+    }
+
+    .article-title{
+        width: 100%;
+        height: 20%;
+        font-size: 25px;
+    }
+    .article-contain{
+        width: 100%;
+        height: 80%;
+    }
+    .crd-description{
+        font-size: 20px;
+    }
+    .crd-price{
+        font-size: 25px;
+    }
+    .crd-pant3{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    .crd-jack3{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    .card-btn button{
+        width: 70%;
+        font-size: 15px;
+    }
+    .crd-shoe3{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    footer{
+        width: 100%;
+        height: 10%;
+    }
+    .foot-logo img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .foot-logo span{
+        font-size: 20px;
+    }
+    .foot-links{
+        width: 40%;
+        height: 50%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .foot-links p{
+        font-size: 15px;
+    }
+    .foot-btn{
+        width: 65%;
+        height: 100%;
+    }
+    .foot-btn a button{
+        width: 2rem;
+        height: 2rem;
+    }
+}
